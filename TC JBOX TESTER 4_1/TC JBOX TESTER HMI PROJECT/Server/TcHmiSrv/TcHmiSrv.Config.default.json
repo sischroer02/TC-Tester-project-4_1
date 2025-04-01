@@ -3683,11 +3683,11 @@
     "USERSELECTTYPE": 0,
     "VIDEOSEGMENTSIZE": 1048576,
     "VIRTUALDIRECTORIES": {
-        "/": "..\\..\\JBOX Tester HMI\\",
+        "/": "..\\..\\TC JBOX TESTER HMI PROJECT\\",
         "/Beckhoff.TwinCAT.HMI.Controls": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Controls.12.756.1\\runtimes\\native1.12-tchmi",
         "/Beckhoff.TwinCAT.HMI.Functions": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.756.1\\runtimes\\native1.12-tchmi",
-        "/bin": "..\\..\\JBOX Tester HMI\\bin\\",
-        "/bin/framework": "..\\..\\JBOX Tester HMI\\bin\\framework",
+        "/bin": "..\\..\\TC JBOX TESTER HMI PROJECT\\bin\\",
+        "/bin/framework": "..\\..\\TC JBOX TESTER HMI PROJECT\\bin\\framework",
         "/framework": "..\\..\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.756.1\\runtimes\\native1.12-tchmi"
     }
 }
