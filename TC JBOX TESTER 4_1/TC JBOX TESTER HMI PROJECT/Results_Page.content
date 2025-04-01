@@ -1,0 +1,178 @@
+﻿<div id="Content3" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-height="3840" data-tchmi-is-enabled="true" data-tchmi-creator-viewport-width="3480" data-tchmi-creator-viewport-height="2160" data-tchmi-width="2160">
+
+<div id="TcHmiDatagrid_6" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-height="777" data-tchmi-height-unit="px" data-tchmi-left="835" data-tchmi-left-unit="px" data-tchmi-top="818" data-tchmi-top-unit="px" data-tchmi-width="515" data-tchmi-width-unit="px" data-tchmi-is-enabled="true" data-tchmi-src-data="%s%PLC1.GVL_LOGS.TEST_RESULTS_ARRAY%/s%" data-tchmi-zindex="1" data-tchmi-show-row-numbers="true" data-tchmi-row-numbers-resizable="true" data-tchmi-header-height="75" data-tchmi-row-height="50">
+<script data-tchmi-target-attribute="data-tchmi-src-column" type="application/json">
+[
+  {
+    "name": "Description",
+    "label": "Test",
+    "control": "TextBlock",
+    "width": 300,
+    "widthUnit": "px",
+    "resize": true,
+    "sortable": false,
+    "minWidth": 100,
+    "minWidthUnit": "px",
+    "cellBackground": null,
+    "textColor": null,
+    "editable": false,
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Center",
+    "headerHorizontalAlignment": "Center",
+    "headerVerticalAlignment": "Center",
+    "ignoreEscapeSequences": false
+  },
+  {
+    "name": "Result",
+    "label": "Result",
+    "control": "TextBlock",
+    "width": 150,
+    "widthUnit": "px",
+    "resize": true,
+    "sortable": true,
+    "minWidth": 70,
+    "minWidthUnit": "px",
+    "cellBackground": null,
+    "textColor": null,
+    "editable": false,
+    "horizontalAlignment": "Center",
+    "verticalAlignment": "Center",
+    "headerHorizontalAlignment": "Center",
+    "headerVerticalAlignment": "Center",
+    "ignoreEscapeSequences": false
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-cell-content-padding" type="application/json">
+{"left":3,"leftUnit":"px","right":3,"rightUnit":"px","top":0,"topUnit":"px","bottom":0,"bottomUnit":"px"}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-header-background-color" type="application/json">
+{
+  "color": "rgba(37, 84, 199, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-header-text-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-row-numbers-background-color" type="application/json">
+{
+  "color": "rgba(133, 146, 176, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-row-numbers-text-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-table-border-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+</div>
+<div id="TcHmiTextblock_31" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="96" data-tchmi-height-unit="px" data-tchmi-left="630" data-tchmi-left-unit="px" data-tchmi-text="JBOX Test Complete" data-tchmi-top="702" data-tchmi-top-unit="px" data-tchmi-width="896" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-is-enabled="true" data-tchmi-zindex="1" data-tchmi-text-font-size="72" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center">
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(255, 255, 255, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "angle": 90.0,
+  "stopPoints": [
+    {
+      "color": "rgba(221, 76, 242, 1)",
+      "stop": "0%"
+    },
+    {
+      "color": "rgba(107, 183, 232, 1)",
+      "stop": "100%"
+    }
+  ]
+}
+</script>
+</div>
+<div id="TcHmiButton_28" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="135" data-tchmi-height-unit="px" data-tchmi-left="256" data-tchmi-left-unit="px" data-tchmi-top="1323" data-tchmi-top-unit="px" data-tchmi-width="375" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-is-enabled="true" data-tchmi-text="%s%PLC1.GVL_HMI.HMI_RESET_TEST_BUTTON.Text%/s%" data-tchmi-state-symbol="%s%PLC1.GVL_HMI.HMI_RESET_TEST_BUTTON.Live_Value%/s%" data-tchmi-zindex="1" data-tchmi-text-font-size="60">
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(37, 84, 199, 1)"
+}
+</script>
+</div>
+<div id="TcHmiButton_32" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="135" data-tchmi-height-unit="px" data-tchmi-left="256" data-tchmi-left-unit="px" data-tchmi-text="Print Results" data-tchmi-top="906" data-tchmi-top-unit="px" data-tchmi-width="375" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-is-enabled="true" data-tchmi-zindex="1" data-tchmi-text-font-size="60">
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiButton_32.onPressed",
+    "actions": [
+      {
+        "objectType": "JavaScript",
+        "active": true,
+        "sourceLines": [
+          "console.log(\"button clicked!\");"
+        ],
+        "injectContextObject": false,
+        "asyncWait": true,
+        "waitMode": "Synchronous"
+      }
+    ]
+  }
+]
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
+{
+  "color": "rgba(37, 84, 199, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+{
+  "color": "rgba(0, 0, 0, 1)"
+}
+</script>
+</div>
+<div id="TcHmiImage_18" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="49" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-zindex="0" data-tchmi-background-image="https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1617908516380-MGDSF238F46LA8HAN8ZQ/LVCC%2BLoop%2BHero%2B2_April%2B2021.jpg?format=1500w" data-tchmi-background-image-width="100" data-tchmi-background-image-width-unit="%" data-tchmi-creator-locked="False" data-tchmi-is-enabled="true">
+</div>
+<div id="TcHmiImage_19" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-background-image="https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1617910318613-W9Q49L9OVNA7NZBJ5RYJ/Tunnel%2Bphoto%2B1.jpg?format=1500w" data-tchmi-top="817" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-height-unit="%" data-tchmi-zindex="0" data-tchmi-creator-locked="False" data-tchmi-is-enabled="true" data-tchmi-background-image-width="100">
+</div>
+<div id="TcHmiImage_20" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="1583" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-background-image="https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1617516361165-UQK7W8R80GXTQQ1YBUP9/car%25252Bin%25252Btunnel.jpg?format=2500w" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-width="100" data-tchmi-zindex="0" data-tchmi-creator-locked="False" data-tchmi-is-enabled="true">
+</div>
+<div id="TcHmiImage_21" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="2350" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-background-image="https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1617556988937-1YD9MUPINA2MX9D9KAE1/20210108_185830.jpg?format=2500w" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-width="100" data-tchmi-zindex="0" data-tchmi-creator-locked="False" data-tchmi-is-enabled="true">
+</div>
+<div id="TcHmiImage_22" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="20" data-tchmi-height-unit="%" data-tchmi-left="0" data-tchmi-left-unit="px" data-tchmi-top="3117" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="%" data-tchmi-background-image="https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/1618426023431-JY0VJ7XCQUYY76QO9D1H/9af6c204fe596ec3bfe3cdeeb7294f56.jpg?format=2500w" data-tchmi-background-image-width="100" data-tchmi-background-image-width-unit="%" data-tchmi-zindex="0" data-tchmi-creator-locked="False" data-tchmi-is-enabled="true">
+</div>
+<div id="TcHmiImage_23" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiImage" data-tchmi-height="10" data-tchmi-height-unit="%" data-tchmi-left="15" data-tchmi-left-unit="px" data-tchmi-top="115" data-tchmi-top-unit="px" data-tchmi-width="20" data-tchmi-width-unit="%" data-tchmi-is-enabled="true" data-tchmi-zindex="0" data-tchmi-background-image="https://images.squarespace-cdn.com/content/v1/6063b0835f68896079d7d643/367844c9-6818-4963-985d-9cfeb9d077b0/white+logo.png?format=500w" data-tchmi-background-image-width="100" data-tchmi-background-image-width-unit="%" data-tchmi-background-image-height-unit="%">
+</div>
+</div>
